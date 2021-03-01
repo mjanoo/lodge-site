@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background: #FBF2E1;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 30px;
+    align-items: center;
+}
+.nav-list{
+   list-style: none;  /*remove bullets*/
+    display: flex;
+}
+
+.nav-list li{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.nav-list a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: sans-serif;
+    transition: color 600ms;
+}
+.nav-list a:hover{
+    color: #E67F0E;
+}
